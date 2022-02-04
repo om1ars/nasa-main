@@ -1,0 +1,29 @@
+.smmPage_dflex {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 90%;
+  color: white;
+  background-color: black;
+  margin-left: 80px;
+  margin-top: 80px;
+  .smmPage_smmtext {
+    h1 {
+      font-size: 60px;
+      width: 400px;
+    }
+    p {
+      width: 400px;
+      font-size: 20px;
+    }
+  }
+  .smmPage_smmImg {
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
+    height: 400px;
+    img {
+      margin-left: 1rem;
+    }
+  }
+}

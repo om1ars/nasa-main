@@ -1,0 +1,23 @@
+.aboutisimage_back {
+  width: 100%;
+  height: 71vh;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: contain;
+  background: url("https://xspace.uz/wp-content/uploads/2020/05/space-min.png");
+}
+
+.aboutusimage {
+  position: relative;
+}
+.aboutiscontent {
+  width: 100%;
+  height: 71vh;
+  background: url("https://xspace.uz/wp-content/uploads/2020/05/space-min.png");
+  left: 10%;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 6.5rem;
+  letter-spacing: -0.04em;
+}

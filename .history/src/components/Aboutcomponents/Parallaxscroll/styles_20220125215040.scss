@@ -1,0 +1,74 @@
+/**
+ * 3 golden rules
+ * @copyright 2021 www.havutcuoglu.com
+ * @author Hakan Havutcuoglu
+ * https://codepen.io/havutcuoglu/pen/VwWqgZr
+ * This notice MUST stay intact in CSS file for free and legal usege.
+ **/
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Stick+No+Bills:wght@500&display=swap');
+
+ @mixin v-align($pos:relative,$top:50%,$ty:-50%) {
+     position: $pos;
+     top: $top;
+     transform: translateY($ty);
+ }
+ 
+ .parallax_scroll {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 300;
+     font-size: 16px;
+     h1,h2 {
+        font-family: 'Stick No Bills', sans-serif;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+    h1 {
+        font-size: 8rem;
+        color: gold;
+        text-shadow: 0 0 10px #000000;
+        border-bottom: 2px solid gold;
+    }
+    h2 {
+        font-size: 4rem;
+        color: black;
+        line-height: 1;
+    }
+    .banner-wrapper {
+        .box {
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            padding: 3rem 2rem;
+            box-shadow: 0 0 30px rgba(0,0,0,0.6);
+        }
+        .text {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+    }
+    .bg-img {
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        min-width: 100vw;
+        min-height: 100vh;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .footer {
+        background-color: black;
+        color:white;
+        padding: 2rem;
+    }
+    .v-align {
+        @include v-align($top:100%);
+    }
+    @media screen and (max-width:639px) {
+        .banner-wrapper {
+            text-align: center;
+        }
+    }
+ }
+ 

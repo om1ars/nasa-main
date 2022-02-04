@@ -1,0 +1,15 @@
+.haveProject {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+
+  form {
+      display: flex;
+      flex-direction: column;
+  }
+}

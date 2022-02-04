@@ -1,0 +1,18 @@
+.aboutAccordion {
+    widtH: 100%;
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    background-color: black;
+}
+.aboutAccordion__image_section {
+    width: 50%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.aboutAccordion_accordion {
+    width: 50%;
+    margin-left: 2rem;
+}

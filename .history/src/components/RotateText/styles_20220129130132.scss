@@ -1,0 +1,44 @@
+:root{
+    --main-color: #F1F2F3 !important; 
+    --second-color: #333333 !important
+}
+
+
+
+.rotate_container {
+    z-index: 999 !important;
+}
+
+.rotate_circular-text{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 200px !important;
+    height: 200px !important;
+    position: fixed !important;  
+    top: calc(100vh - 200px) !important;
+    right: 0 !important;
+}
+
+.rotate_text{
+    font-family: "Fira Code" !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    text-transform: uppercase !important;
+    color: var(--second-color) !important;
+}
+
+.rotate_arrow{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.rotate_arrow svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: var(--second-color);
+}

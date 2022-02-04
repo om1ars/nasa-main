@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
+
+$white: #fff;
+$black: #2e2e2e;
+$gray: #787878;
+$highlight: #ea8478;
+$footer: #f7f7f7;
+
+* {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+.portfolio_galllery {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  background-color: black;
+  color: $gray;
+  background: $white;
+  text-rendering: optimizeLegibility;
+}
+

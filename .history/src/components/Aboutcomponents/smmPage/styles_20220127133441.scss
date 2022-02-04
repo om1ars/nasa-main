@@ -1,0 +1,17 @@
+.dflex{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+  color: white;
+    background-color:black;
+    .smmtext{
+        width: 500px;
+        h1{
+            font-size: 70px;
+        }
+        p{
+            width:400px;
+        }
+    }
+}

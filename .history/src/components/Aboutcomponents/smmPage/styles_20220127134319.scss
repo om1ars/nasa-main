@@ -1,0 +1,22 @@
+.smmPage_dflex{
+    display: flex;
+
+    min-height: 100vh;
+    width: 100%;
+  color: white;
+    background-color:black;
+margin-left:100px ;
+margin-top: 50px;
+    .smmtext{
+        
+        h1{
+            font-size: 60px;
+            width: 400px;
+            
+        }
+        p{
+            width:400px;
+            font-size: 20px;
+        }
+    }
+}
